@@ -5,6 +5,16 @@
   "singleQuote": true,
   "bracketSameLine": true,
   "semi": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@pages/(.*)$",
+    "^@components/(.*)$",
+    "^@utils/(.*)$",
+    "^@constants/(.*)$",
+    "^@assets/(.*)$",
+    "^[./]"
+  ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true
 }
