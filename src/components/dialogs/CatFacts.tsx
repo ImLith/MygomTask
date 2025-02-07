@@ -5,7 +5,7 @@ import { ICatFact } from '@types';
 import BaseDialog, { IDialog } from './Base';
 
 // To imitate the end of list
-const MAX_ITEMS = 100;
+const MAX_ITEMS = 500;
 
 const CatFactsDialog = ({ isOpen, onClose }: IDialog) => {
   const [items, setItems] = useState<ICatFact[]>([]);
