@@ -8,13 +8,15 @@
   "plugins": ["@trivago/prettier-plugin-sort-imports"],
   "importOrder": [
     "<THIRD_PARTY_MODULES>",
-    "^@pages/(.*)$",
-    "^@components/(.*)$",
-    "^@utils/(.*)$",
-    "^@constants/(.*)$",
-    "^@assets/(.*)$",
+    "^@layouts(.*)$",
+    "^@pages(.*)$",
+    "^@components(.*)$",
+    "^@utils(.*)$",
+    "^@constants(.*)$",
+    "^@types(.*)$",
+    "^@assets(.*)$",
     "^[./]"
   ],
-  "importOrderSeparation": true,
+  "importOrderSeparation": false,
   "importOrderSortSpecifiers": true
 }

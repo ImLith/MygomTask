@@ -8,10 +8,13 @@
     "skipLibCheck": true,
     "baseUrl": "./src",
     "paths": {
+      "@layouts*": ["layouts*", "layouts"],
       "@pages*": ["pages*", "pages"],
       "@components*": ["components*", "components"],
       "@utils*": ["utils*", "utils"],
       "@constants*": ["constants*", "constants"],
+      "@fetchers*": ["fetchers*", "fetchers"],
+      "@types*": ["types*", "types"],
       "@assets*": ["assets*", "assets"]
     },
 
